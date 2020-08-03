@@ -9,7 +9,14 @@ body {
   }
 
    .jumbotron .container .row  .hi-slide{
-    overflow: hidden;
+     display:block;
+  }
+   
+   
+  @media screen and (max-width: 600px){
+   .jumbotron .container .row  .hi-slide{
+    display:none;
+  }
   }
 
   .hi-slide {
