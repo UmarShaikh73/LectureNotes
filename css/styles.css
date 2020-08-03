@@ -8,13 +8,13 @@ body {
 
   }
 
-   .jumbotron .container .row  .hi-slide{
+   .jumbotron .hidd .row  .hi-slide{
      display:block;
   }
    
    
   @media screen and (max-width: 600px){
-   .jumbotron .container .row  .hi-slide{
+   .jumbotron .hidd .row  .hi-slide{
     display:none;
   }
   }
