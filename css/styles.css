@@ -11,28 +11,28 @@ body {
 
   .hi-slide {
     position: relative;
-    width: 754px;
-    height: 292px;
-    margin: 115px auto 0;
+    width: 47.125em;
+    height: 18.25em;
+    margin: 7.1875em auto 0;
   }
 
   .hi-slide .hi-next,
   .hi-slide .hi-prev {
     position: absolute;
     top: 50%;
-    width: 40px;
-    height: 40px;
+    width: 2.5em;
+    height: 2.5em;
     margin-top: -20px;
-    border-radius: 50px;
+    border-radius: 3.125em;
 
 
-    line-height: 40px;
+    line-height: 2.5em;
     text-align: center;
     cursor: pointer;
     background-color: #fff;
     color: black;
     transition: all 0.6s;
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: bold;
   }
 
@@ -61,8 +61,8 @@ body {
   .hi-slide>ul {
     list-style: none;
     position: relative;
-    width: 754px;
-    height: 292px;
+    width: 47.125em;
+    height: 18.25em;
     margin: 0;
     padding: 0;
   }
@@ -72,8 +72,8 @@ body {
     overflow: hidden;
     position: absolute;
     z-index: 0;
-    left: 377px;
-    top: 146px;
+    left: 23.5625em;
+    top: 9.125em;
     width: 0;
     height: 0;
     margin: 0;
@@ -216,7 +216,7 @@ body {
   } 
 
   .Help-list .row li{
-    margin:0.5em 0 ;font-size: 17px;
+    margin:0.5em 0 ;font-size: 1.0625em;
   }
 
   .slide ol li{
@@ -224,11 +224,11 @@ body {
     border: 1px solid black;
   }
   .carousel-inner{
-    display: block; width: 700px; height: 300px; margin-left: auto;margin-right: auto;
+    display: block; width: 43.75em; height: 18.75em; margin-left: auto;margin-right: auto;
   }
 
   .carousel-inner .item img{
-    float: left; width:200px;height: 225px; border-radius: 500px;
+    float: left; width:12.5em;height: 14.0625em; border-radius: 31.25em;
   }
 
   .carousel-inner .item p{
