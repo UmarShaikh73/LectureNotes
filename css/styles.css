@@ -225,6 +225,7 @@ body {
   }
   .carousel-inner{
     display: block; width: 43.75em; height: 18.75em; margin-left: auto;margin-right: auto;
+    overflow: hidden;
   }
 
   .carousel-inner .item img{
