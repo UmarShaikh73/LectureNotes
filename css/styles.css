@@ -8,6 +8,9 @@ body {
 
   }
 
+   .jumbotron .container .row  .hi-slide{
+    overflow: hidden;
+  }
 
   .hi-slide {
     position: relative;
