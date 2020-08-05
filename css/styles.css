@@ -136,7 +136,7 @@ body {
     margin:0 0.5em;
   }
   .navbar .container-fluid .collapse .nav li:hover .ab{
-    background-color:rgb(34,34,34);
+    background-color:#fff;
     background-position: 0 100%;
     color: black;
   }
@@ -151,7 +151,7 @@ body {
     text-decoration: none;
     transition: all 0.3s;
     background-size: 100% 200%;
-    background-image: linear-gradient(to top, rgb(255, 255, 255) 50%,rgb(29, 19, 19) 50%);
+    background-image: linear-gradient(to top, rgb(255, 255, 255) 50%,rgb(34, 34, 34) 50%);
     color: rgb(255, 255, 255);
   }
   .jumbotron{
