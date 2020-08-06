@@ -187,7 +187,7 @@ body {
   }
 
   .carousel-inner .item p{
-    color: #333; font-style: italic;font-size: 1.2em;text-align: start;
+    color: #333; font-style: italic;font-size: 0.7em;text-align: start;
   }
   .carousel-inner .item p span{
     font-weight: 700;
