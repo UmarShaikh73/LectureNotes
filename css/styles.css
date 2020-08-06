@@ -35,8 +35,41 @@ body {
       display: inline;
     }
 
-  }
+    .jumbotron .container .row-header p span{
+      display: block;  
+      font-size: 0.8em;
+    }
 
+    .footer .container .row  {
+      display: flex;
+      flex-flow: wrap;
+      justify-content: space-around;
+    }
+
+    
+    .footer .container .row  .yes ul li{
+      text-align: left;
+    }
+
+    .footer .container .row .no{
+      display: none;
+    }
+
+    .footer .container .row hr{
+      width: 100%;
+      border:0;
+    }
+
+    .footer .container .row .icon ul li{
+      display: inline;
+      margin: 0 0.5em;
+    }
+    
+    .footer .container .row .icon {
+      margin: 0 auto; 
+    }
+
+  }
 
   ul.a {
     list-style: none;
@@ -74,7 +107,7 @@ body {
   }
 
   .navbar .container-fluid .navbar-header .searchSmall a i{
-    color: white; margin-top: 15px; margin-left: 8em;
+    color: white; margin-top: 1em; 
   }
 
   .navbar .container-fluid .collapse .nav li:hover .ab{
@@ -105,11 +138,11 @@ body {
   .jumbotron .container .row-header  p{
     font-size: 4em;color: white;
   }
-  .jumbotron .container .row-header  p span{
+  .jumbotron .container .row-header p span{
     color: rgb(255, 208, 0);
   }
   .jumbotron .container .row-header  input {
-    width: 50%;font-style: italic; border-radius: 50px; border: none; padding:0.5em 2.1em;
+    width: 60%;font-style: italic; border-radius: 50px; border: none; padding:0.5em 2.1em;
   }
   .jumbotron .container .row  {
     margin:3em 0;border-right:1px solid gray ; color: rgb(255, 187, 0);font-weight: bolder;
@@ -179,30 +212,31 @@ body {
     border: 1px solid black;
   }
   .carousel-inner{
-    display: block; width: 40.75em; height: 18.75; margin-left: auto;margin-right: auto;
+    display: block; width: 43.75em; margin-left: auto;margin-right: auto;
   }
 
   .carousel-inner .item img{
-    float: left; width:11.0625em;height: 14.0625em; border-radius: 500px;
+    float: left; width:10.0625em;height: 10.0625em; border-radius: 500px;
   }
 
   .carousel-inner .item p{
-    color: #333; font-style: italic;font-size: 0.7em;text-align: start;
+    color: #333; font-style: italic;font-size: 1em;text-align: start;
   }
   .carousel-inner .item p span{
     font-weight: 700;
   }
 
   .footer{
-    background-color: rgb(36, 29, 29);font-size: 1.19em;font-weight: 500;
+    background-color: rgb(36, 29, 29);font-size: 0.8em;font-weight: 500;
   }
 
   .footer .container .row .col-4 {
-    margin-top: 1em; padding: 1.5em 0;
+    margin-top: 1em; padding: 1em 0;
   }
 
+
   .footer .container .row ul li{
-    margin: 1em 0;
+    margin: 0.8em 0;
   }
 
   .footer .container .row .col-4 ul li a{
@@ -210,14 +244,17 @@ body {
   }
 
   .footer .container .row .col-4 ul li a:hover{
-    color: orange;
+    color: rgb(255, 166, 0);
   }
 
   .footer .cop {
     padding: 0.5em 0;margin: 0; color: rgb(144, 139, 132); border-top:2px solid rgb(24, 22, 22);
   }
 
-
+  
+  .footer .container .row hr{
+   display: none;
+  }
 
 .fli img{
   height: 8em;
@@ -229,4 +266,5 @@ body {
   border-radius: 5px;
   background-color: rgb(0, 0, 0);
   color: rgb(119, 113, 113);
+  margin:0 -63px; 
 } 
